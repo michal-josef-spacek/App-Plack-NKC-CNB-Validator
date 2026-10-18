@@ -1,0 +1,52 @@
+NAME
+    plack-nkc-cnb-validator - Tool for ČNB validator plack app.
+
+SYNOPSIS
+     plack-nkc-cnb-validator [-c changes_file] [-d] [-h] [--version]
+
+DESCRIPTION
+    Tool to run of ČNB validator Plack web application.
+
+ARGUMENTS
+    *       "-c changes_file"
+
+            Option to set Changes file.
+
+    *       "-d"
+
+            Debug mode.
+
+    *       "-h"
+
+            Print help.
+
+    *       "--version"
+
+            Print version of script.
+
+EXAMPLE
+     plack-nkc-cnb-validator -h
+
+     # Output:
+     # Usage: /home/skim/perl5/bin/plack-nkc-cnb-validator [-c changes_file] [-d] [-h] [--version]
+     #         -c changes_file Changes file to present.
+     #         -d              Debug mode.
+     #         -h              Print help.
+     #         --version       Print version.
+
+REPOSITORY
+    <https://github.com/michal-josef-spacek/App-Plack-NKC-CNB-Validator>
+
+AUTHOR
+    Michal Josef Špaček <mailto:michal.josef.spacek@gmail.com>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+    © 2026 Michal Josef Špaček
+
+    BSD 2-Clause License
+
+VERSION
+    0.01
+
