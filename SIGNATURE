@@ -1,0 +1,54 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.88.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: RIPEMD160
+
+SHA256 8a1e719c625ab7efbbfcc3dbf2a894e3f7d795360d448a2f42aac8f07c2eff5f Changes
+SHA256 c06cc45fc6d57010cf924da08668c0e571d7ab3f3c56a01470b1a60c5167de49 LICENSE
+SHA256 f686b57256f4d97f02d41b132874cbd70cf83145d65c83e6f5fa5d2bcde42860 MANIFEST
+SHA256 dd7006988e8ae612a6b220975b3ba9d43028d4125667080cfd93f35cded09df1 META.yml
+SHA256 67e06872508eedb4812ca49caefaebb1c8b4b49b9d20a869f0a2150bbafd7521 Makefile.PL
+SHA256 e38e09a22998c04b2689c5d1364f64090fd7551ff8220e37e41e6370c3c465ad README
+SHA256 224c45d07c4dc25464d15442b31f7cadc3c6e875fe88642db5123c52665b3fae Validator.pm
+SHA256 665bee8f317f1ca8d3a56a43b5c89c9662b8f36419d0d6b16c04d2f08d5042fd bin/plack-nkc-cnb-validator
+SHA256 cd5397bbe618f5bbd4e12a33b0cf5d21114e771c2dbd0ce28e2135beb52c35a8 inc/Module/Install.pm
+SHA256 8bd506c33fb78f10f6451413e931ca23541fcc4eebe05fcb7c7c9577341223c4 inc/Module/Install/AuthorRequires.pm
+SHA256 1b5430a46a35142ef8914d8c745196fca825defc9dfa7e389299bf294613825e inc/Module/Install/AuthorTests.pm
+SHA256 798836f9ccb8d204b1be31fc3835631f57e9d818b21a8f0d14bfcfb82ff4a72a inc/Module/Install/Base.pm
+SHA256 d64cd4c16f83c5baf11f64a44bea3a0abc060a49da5aba040f0eb01394bf75ab inc/Module/Install/Can.pm
+SHA256 65d7a6098bf3f829e8c1c2865476d3537aa6f0ad0ffc9149e10812c856529043 inc/Module/Install/Fetch.pm
+SHA256 70c4b77acab3ff51dfb318110369607cb109e1c319459249623b787cf3859750 inc/Module/Install/Makefile.pm
+SHA256 14556386168007ce913e669fc08a332ccdb6140246fd55a90c879b5190c1b57a inc/Module/Install/Metadata.pm
+SHA256 53825bc78e4c910b888160bc148c8bc211be58e02b99c8edcbf4854f95faa049 inc/Module/Install/ReadmeFromPod.pm
+SHA256 63ec8405523ae67c33823dcf4b136a46f0711fb17a8b58b49ddd922ed6b69611 inc/Module/Install/Scripts.pm
+SHA256 4c746c02c5cc19bed4c352e76205b4adff4c45ce8310d71294e1b83c059659c2 inc/Module/Install/Win32.pm
+SHA256 d3d9b4583243c470ae895defa4c44564485b53693cba1c50ab0320768f443e97 inc/Module/Install/WriteAll.pm
+SHA256 efb40ed5252467c908fe571df13be2ac63eda841d388743891fc5978e852511f t/App-Plack-NKC-CNB-Validator/01-use.t
+SHA256 9d18d1ee51282da6685b96a7c86dd73f634d46ad24516499135b09677a2fa67c t/App-Plack-NKC-CNB-Validator/02-version.t
+SHA256 e5b3039b8cc86b6e1f8da798b7bdc177b5fcf5c8ce0478bd8a0759dbc113aa9e xt/App-Plack-NKC-CNB-Validator/01-pod_coverage.t
+SHA256 d6f34671e3f4eaf28adc4f8bdc72859e96ad23858848fd83db1aeb855bd118ef xt/App-Plack-NKC-CNB-Validator/02-pod.t
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBAwAdFiEECAMiMrHl7JYa0rZPZ58rGyDXs5UFAmrUtAMACgkQZ58rGyDX
+s5Wdkgv9GfIrmTKn/0rBmBOeISqsp3tEYB9CkscJDvp/cji0ZYwAjADgmtM6U6tn
++EwBQES+lGzb/dMvITEN4KTsBt7nVs2HjQZx8TUQCFoZlWUCv8xwXV0wTsLIrMsB
+zFsX9S/5uXkmSNobd5z2J1WvTOsJZhAOFdURYndCOytns8MrfhM/FBQiCR5bHfal
+LUWsXRxFBx5w/wx//Rkuqq8NkBlMPdaC/SB0/lFKAHgc18blxy8RLjWpVRo3T7cJ
+me0zqpn0gKfG8dO1NRtsdLNUQ7J9utEVq10JGcEtOwfTmLgIRtU6fddiCQyy4q72
+wUeVg9Gp6Jo9mD9iaCF3OXCPkVnWODzJt5LOEaBc25qoUkjKqpnWdINZRfEppPRc
+PuQoTb9FQXKKpytYfF6PO7qDriYwCmIl7CKW7xR9XxNtGr6MFXCFgyz7vvC73rls
+fEdiSyv5DcICl2/ZAD2IwW8u2RBWklXtlZ/lBbB+WvXopSYsz2HK5NeRpdIPgnQA
+LXi5CCCT
+=i++/
+-----END PGP SIGNATURE-----
